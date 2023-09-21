@@ -1,0 +1,251 @@
+body{
+    font-family: 'Mooli', sans-serif;
+    background-color: rgb(56, 191, 150);
+    color: #00005D; 
+}
+header{
+    text-align: left    ;
+    font-size: xx-large;
+    font-weight: bolder;
+    height: 50px;
+    width:100%;
+    background-color: rgb(168, 216, 216);
+    position: absolute;
+}
+video{
+    padding: 20px;
+    opacity: 0.8; 
+    width:"300px";
+    height:"400px" ; 
+}
+.image{
+    text-align: center;
+}
+audio{
+    float:right
+}
+.list{
+      list-style: none;
+      font-size: x-large;
+      padding: 10px;
+}
+
+.right{
+   
+    background-color: whitesmoke;
+    width: 1350PX;
+    float: right;
+    text-align: justify;
+    padding: 10px;
+}
+a:link {
+    background-color: transparent;
+    text-decoration: none;
+    color: black;
+  }
+a:visited {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+nav ul { list-style-type: none; padding: 10px; }
+nav a { text-decoration: none; 
+        font-weight: bold; }
+nav a:link { color: #ae83c5; }
+nav a:visited { color: #ae83c5; }
+nav a:hover { color: #1e1ede; }
+nav { float: left;
+    width: 200px;
+    padding: 30px;
+    background-color:rgb(170, 200, 200);
+    margin: 10px;
+    border: 3px solid #73AD21;
+    letter-spacing:0.1em;
+    font-weight: bold;
+}
+summary{
+    padding-top: 50px;
+    font-size: x-large;
+    font-weight: bold;
+    color: #000004  ;
+}
+
+.img-wrapper{
+    position: relative;
+    overflow: hidden;
+    float: left;
+  width: 50%;
+}
+td{
+    width: 33.33%;
+}
+.img-wrapper img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease; 
+}
+
+/* Hover effect */
+.img-wrapper:hover img {
+    transform: scale(1.1); 
+}
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(51, 57, 178);
+    color: white;
+    text-align: center;
+  }
+
+#resume {
+    border-radius: 20px;
+    background-color: gray;
+    padding: 25px;
+    align-self: center;
+    opacity: 0.7;
+  }
+  #fname, #country,#message,#mail{
+      width: 100%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      display: inline-block;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+    }
+   #submit {
+      width: 100%;
+      background-color: #4CAF50;
+      color: white;
+      padding: 14px 20px;
+      margin: 8px 0;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+  #address{
+      color: white;
+  }
+  #submit:hover {
+      background-color: #45a049;
+  }
+
+
+
+@media only screen and (max-width: 820px){
+  
+    
+    .wrapper{
+        width:100%;
+    
+    }
+    
+    header{
+        text-align: left    ;
+        font-size: large;
+        font-weight: bolder;
+        height: 20px;
+        width:100%;
+        background-color: rgb(168, 216, 216);
+        position: absolute;
+    }
+    audio{
+        height: 10px;
+        width: 100px;
+    }
+    nav { float: none; 
+        width: 700px;
+      padding-top: 10px;
+    }
+    .right{
+        float: none;
+        width: 100%;
+    }
+    .image{
+    text-align: centre;
+    }
+    video{
+    opacity: 0.8;
+    }
+    .list{
+    list-style: none;
+    font-size: large;
+    }
+    summary{
+    font-size: large;
+    color: #000004  ;
+    }
+    table, th, td {
+    border: 1px solid;
+    color: black;
+    }
+    
+    .img-wrapper{
+        width: 100%;
+    }
+    
+    }
+
+
+@media only screen and (min-width:390px) and (max-width: 819px) {
+  
+.left{
+    font-size: small;
+}
+.right{
+    font-size: small;
+}
+
+.wrapper{
+    width:100%;
+
+}
+
+header{
+    text-align: left    ;
+    font-size: large;
+    font-weight: bolder;
+    height: 20px;
+    width:100%;
+    background-color: rgb(168, 216, 216);
+    position: absolute;
+}
+audio{
+    height: 10px;
+    width: 100px;
+}
+nav { float: none; 
+    width: 300px;
+  padding-top: 10px;
+}
+.right{
+    float: none;
+    width: 100%;
+}
+.image{
+text-align: centre;
+}
+video{
+opacity: 0.8;
+}
+.list{
+list-style: none;
+font-size: large;
+}
+summary{
+font-size: large;
+color: #000004  ;
+}
+table, th, td {
+border: 1px solid;
+color: black;
+}
+
+.img-wrapper{
+    width: 100%;
+}
+
+}
+
